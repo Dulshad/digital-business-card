@@ -1,0 +1,16 @@
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.icon {
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,21 @@
+.footer-container {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #161619;
+
+}
+
+.footer-icon-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,38 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.info-img {
+    max-height: 320px;
+}
+
+.info-title {
+    padding-top: 1.25rem;
+    font-size: 1.5625rem;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+
+.info-btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.info-subtitle {
+    color: #F3BF99;
+    font-size: 0.75rem;
+    padding-top: 0.25rem;
+}
+
+.info-smalltext {
+    font-size: 0.625rem;
+    padding-top: 0.375rem;
+    padding-bottom: 1rem;
+}

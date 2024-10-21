@@ -12,8 +12,10 @@ export default function Info() {
             <p className={styles['info-subtitle']}>Fullstack Developer</p>
             <p className={styles['info-smalltext']}>dulshadfaraj.website </p>
             <div className={styles['info-btn-container']}>
-                <Button text="Email" href="mailto:dulshad@website.com" backgroundColorHexCode="#FFFFFF" colorHexCode="#374151" iconPath={emailIcon} width="90px" height="32px"/>
-                <Button text="LinkedIn" href="https://www.linkedin.com/in/dulshad-faraj/" backgroundColorHexCode="#5093E2" colorHexCode="#FFFFFF" iconPath={linkedinIcon}
+                <Button text="Email" href="mailto:dulshad@website.com" backgroundColorHexCode="#FFFFFF"
+                        colorHexCode="#374151" iconPath={emailIcon} width="90px" height="32px"/>
+                <Button text="LinkedIn" href="https://www.linkedin.com/in/dulshad-faraj/"
+                        backgroundColorHexCode="#5093E2" colorHexCode="#FFFFFF" iconPath={linkedinIcon}
                         width="115px" height="32px"/>
             </div>
         </div>

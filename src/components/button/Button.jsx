@@ -3,7 +3,7 @@ import styles from './Button.module.css'
 
 Button.propTypes = {
     text: PropTypes.string.isRequired,
-    iconPath: PropTypes.string.isRequired,
+    iconPath: PropTypes.string,
     backgroundColorHexCode: PropTypes.string.isRequired,
     colorHexCode: PropTypes.string.isRequired,
     width: PropTypes.string.isRequired,
@@ -13,9 +13,9 @@ Button.propTypes = {
 
 export default function Button({text, iconPath, backgroundColorHexCode, colorHexCode, width, height, href}) {
     return (
-        <a href={href} target="_blank" rel="noopener noreferrer"  className={styles['btn']}
+        <a href={href} target="_blank" rel="noopener noreferrer"  className={styles.btn}
            style={{backgroundColor: backgroundColorHexCode, color: colorHexCode, width: width, height: height}}>
-            <img src={iconPath} alt={`${text} icon`} className={styles['icon']}/>
+            {iconPath && <img src={iconPath} alt={`${text} icon`} className={styles.icon}/>}
             {text}
         </a>
     )

@@ -1,22 +1,22 @@
-.footer-container {
+.footer_container {
     padding-bottom: 25px;
     padding-top: 25px;
     margin-top: auto;
     background-color: #161619;
 }
 
-.footer-icon-container {
+.footer_icon_container {
     padding-left: 4rem;
     padding-right: 4rem;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-icon {
+.footer_icon {
     height: 30px;
     width: 30px;
 }
 
-.footer-icon:hover {
+.footer_icon:hover {
     transform: scale(1.2);
 }
